@@ -26,6 +26,7 @@ class Details extends Component {
         return <h2>loading...</h2>
     }
     const {animal, breed, city, state, description, name, images} = this.state
+
     return(
         <div className="details">
             <Carousel images={images}/>
@@ -38,4 +39,12 @@ class Details extends Component {
   }
 }
 
-export default withRouter(Details); // React Router doesn't pass us info by default, we need to ask for it ourselves 
+const DetailsWithRouter = withRouter(Details);
+
+export default function DetailsWithErrorBoundary(){
+  return(
+    <ErrorBoundary>
+      <DetailsWithRouter/>
+    </ErrorBoundary>
+  );
+}; // React Router doesn't pass us info by default, we need to ask for it ourselves 
