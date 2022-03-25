@@ -1,6 +1,6 @@
 # Adopt Me
 
-A Pet adoptioin App, where you can search from any listed Animal. their respective Breed you like and from any Location you prefer.
+A Pet adoption App, where you can search from any listed Animal. their respective Breed you like and from any Location you prefer.
 
 `Home Page` </br>
 <img src="imgs/homepage.jpeg"> </br>
