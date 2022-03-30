@@ -10,12 +10,23 @@ const App = () => {
   const theme = useState('darkblue');
   return(
     <ThemeContext.Provider value={theme}>
-      <div>
+      <div
+        className="p-0 m-0"
+        style={{
+          background: "url(http://pets-images.dev-apis.com/pets/wallpaperA.jpg)"
+        }}
+      >
         <Router>
-          <header>
-            <Link to="/">
-              <h1>Adopt Me!</h1>
-            </Link>
+          <header
+            className="w-full pt-10 mb-10 text-center p-7 "
+          >
+            <Link to="/" 
+              className="text-7xl text-transparent bg-no-repeat"
+              style={{
+                backgroundImage: "url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png)",
+                backgroundSize: "100%"
+              }}
+            > Adopt Me! </Link>
           </header>
           <Switch>
             <Route path="/details/:id">
