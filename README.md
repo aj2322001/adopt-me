@@ -14,4 +14,4 @@ A Pet adoption App, where you can search from any listed Animal. their respectiv
 <img width=70% src="imgs/Tailwind/homePage4.jpeg"> </br>
 
 `Details Page` </br>
-<img width=78% src="imgs/Tailwind/details.jpeg"> &nbsp;&nbsp; <img width=20% src="imgs/Tailwind/details_small.jpeg"> </br> 
+<img width=77% src="imgs/Tailwind/details.jpeg"> &nbsp;&nbsp; <img width=20% src="imgs/Tailwind/details_small.jpeg"> </br> 
